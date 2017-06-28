@@ -1,9 +1,9 @@
 //
-//  main.m
-//  ValetSecureElementTest
+//  AppDelegate.swift
+//  Valet iOS Test Host App
 //
-//  Created by Dan Federman on 5/14/15.
-//  Copyright (c) 2015 Square, Inc.
+//  Created by Dan Federman on 1/13/17.
+//  Copyright 2017 Square, Inc.
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -18,13 +18,13 @@
 //  limitations under the License.
 //
 
-#import <UIKit/UIKit.h>
-
-#import "ValetSecureElementTestAppDelegate.h"
+import UIKit
 
 
-int main(int argc, char * argv[]) {
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([ValetSecureElementTestAppDelegate class]));
-    }
+@UIApplicationMain
+
+
+final class ValetIOSTestHostAppDelegate : UIResponder, UIApplicationDelegate
+{
+    var window: UIWindow?
 }
