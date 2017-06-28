@@ -1,9 +1,9 @@
 //
-//  ValetSecureElementTestAppDelegate.m
-//  ValetSecureElementTest
+//  ValetTouchIDTestAppDelegate.swift
+//  Valet
 //
-//  Created by Dan Federman on 5/14/15.
-//  Copyright (c) 2015 Square, Inc.
+//  Created by Eric Muller on 4/20/16.
+//  Copyright © 2016 Square, Inc.
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -18,8 +18,13 @@
 //  limitations under the License.
 //
 
-#import "ValetSecureElementTestAppDelegate.h"
+import UIKit
 
 
-@implementation ValetSecureElementTestAppDelegate
-@end
+@UIApplicationMain
+
+
+final class ValetTouchIDTestAppDelegate : UIResponder, UIApplicationDelegate
+{
+    var window: UIWindow?
+}
